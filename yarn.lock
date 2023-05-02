@@ -142,16 +142,16 @@
     uuid "^8.3.2"
 
 "@adonisjs/shield@^1.0.4":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@adonisjs/shield/-/shield-1.0.8.tgz#c36e6ca9bc4afee2a8610b8ae380e43ec2284c26"
-  integrity sha512-bFPuDIlChrp7ihbwjl8OVCw/b57pG0yn/1rrzFXP2XBpIUTbOFdQxzDlvydHxsyg90/pAup/4qtmdulywczg2g==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/shield/-/shield-1.1.0.tgz#3bef5b0febc4cdedac8c5f8888b46c70190e2caf"
+  integrity sha512-3qVwnLTeTk5w0Agi7xuQKj7r7QeA1yFXy0QfpjTIYIzQVy9QTk3DgIK5ZvGtr/2/ESHVosyOrCGr+kQDjtcBhA==
   dependencies:
     "@adonisjs/generic-exceptions" "^2.0.1"
     csrf "^3.0.6"
     node-cookie "^2.1.1"
     node-csp "^1.0.1"
     node-guard "^1.0.0"
-    uuid "^3.3.2"
+    uuid "^8.3.2"
 
 "@babel/code-frame@^7.0.0":
   version "7.21.4"
@@ -3340,15 +3340,25 @@ cookie-signature@1.0.6:
   resolved "https://registry.yarnpkg.com/cookie-signature/-/cookie-signature-1.0.6.tgz#e303a882b342cc3ee8ca513a79999734dab3ae2c"
   integrity sha1-4wOogrNCzD7oylE6eZmXNNqzriw=
 
-cookie-signature@^1.0.6, cookie-signature@^1.1.0:
+cookie-signature@^1.0.6:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/cookie-signature/-/cookie-signature-1.1.0.tgz#cc94974f91fb9a9c1bb485e95fc2b7f4b120aff2"
   integrity sha512-Alvs19Vgq07eunykd3Xy2jF0/qSNv2u7KDbAek9H5liV1UMijbqFs5cycZvv5dVsvseT/U4H8/7/w8Koh35C4A==
+
+cookie-signature@^1.1.0:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/cookie-signature/-/cookie-signature-1.2.1.tgz#790dea2cce64638c7ae04d9fabed193bd7ccf3b4"
+  integrity sha512-78KWk9T26NhzXtuL26cIJ8/qNHANyJ/ZYrmEXFzUmhZdjpBv+DlWlOANRTGBt48YcyslsLrj0bMLFTmXvLRCOw==
 
 cookie@0.3.1, cookie@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
   integrity sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=
+
+cookie@^0.4.0:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.2.tgz#0e41f24de5ecf317947c82fc789e06a884824432"
+  integrity sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==
 
 copy-concurrently@^1.0.0:
   version "1.0.5"
@@ -7639,18 +7649,18 @@ node-cookie@2.0.2:
     simple-encryptor "^1.1.0"
 
 node-cookie@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/node-cookie/-/node-cookie-2.1.1.tgz#650142d79f87159b7d015e191681f5a6a41ddd3e"
-  integrity sha512-NZG0AxjfMT7N421HUvgOu4ilLin2GpzUnHrETT3k8UyytQTnEWBH6KOyAP9LoMEeu+CvUdwMB5w4ZK3pohjswg==
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/node-cookie/-/node-cookie-2.1.2.tgz#4327c70e6a9bbe8c8ee86713bd9b534f655ec405"
+  integrity sha512-8/k8V9/2hCESYMmNVtJiHweKlP1ZqjrzG3bv+cSooiWurHB6N7KqVdX/s7ojbBXTwOJrLKJzC9rlPRvFRYuKRA==
   dependencies:
-    cookie "^0.3.1"
+    cookie "^0.4.0"
     cookie-signature "^1.1.0"
-    simple-encryptor "^1.4.0"
+    simple-encryptor "^3.0.0"
 
 node-csp@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/node-csp/-/node-csp-1.0.1.tgz#305eb2377c98da8415abbb03716efa1d4eb0ce72"
-  integrity sha1-MF6yN3yY2oQVq7sDcW76HU6wznI=
+  integrity sha512-t0TZaoJVYlWR/rgIlQvNedyUIVvAnzQIPqxIyUiS2W4PzSFDa93RRcKxLF/KNZGFvKUFlFf6guHZI23fiDBF+A==
   dependencies:
     platform "^1.3.1"
 
@@ -7672,7 +7682,7 @@ node-fetch@^2.3.0:
 node-guard@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/node-guard/-/node-guard-1.0.0.tgz#e4549beb791c3b1c842755a5273b73be8b080a34"
-  integrity sha1-5FSb63kcOxyEJ1WlJztzvosICjQ=
+  integrity sha512-LX911hOl63/YBO3Skl/jQ9QQG+lE++66xaF9/lg7G02bBpdgHMmSdMK5+jgo7p/3i5hn4fGOipX3Ko17Yzfi2w==
 
 node-int64@^0.4.0:
   version "0.4.0"
@@ -8462,9 +8472,9 @@ pkg-dir@^3.0.0:
     find-up "^3.0.0"
 
 platform@^1.3.1:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/platform/-/platform-1.3.5.tgz#fb6958c696e07e2918d2eeda0f0bc9448d733444"
-  integrity sha512-TuvHS8AOIZNAlE77WUDiR4rySV/VMptyMfcfeoMgs4P8apaZM3JrnbzBiixKUv+XR6i+BXrQh8WAnjaSPFO65Q==
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/platform/-/platform-1.3.6.tgz#48b4ce983164b209c2d45a107adb31f473a6e7a7"
+  integrity sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==
 
 pluralize@^7.0.0:
   version "7.0.0"
@@ -9384,7 +9394,7 @@ querystring@0.2.0, querystring@^0.2.0:
 random-bytes@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/random-bytes/-/random-bytes-1.0.0.tgz#4f68a1dc0ae58bd3fb95848c30324db75d64360b"
-  integrity sha1-T2ih3Arli9P7lYSMMDJNt11kNgs=
+  integrity sha512-iv7LhNVO047HzYR3InF6pUcUsPQiHTM1Qal51DcGSuZFBil1aBBWG5eHPNek7bvILMaYJ/8RU1e8w1AMdHmLQQ==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
@@ -9843,7 +9853,7 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
 rndm@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/rndm/-/rndm-1.2.0.tgz#f33fe9cfb52bbfd520aa18323bc65db110a1b76c"
-  integrity sha1-8z/pz7Urv9UgqhgyO8ZdsRCht2w=
+  integrity sha512-fJhQQI5tLrQvYIYFpOnFinzv9dwmR7hRnUz1XqP3OJ1jIweTNOd6aTO4jwQSgcBSFUB+/KHJxuGneime+FdzOw==
 
 rsvp@^4.8.4:
   version "4.8.4"
@@ -9932,7 +9942,7 @@ schema-utils@^1.0.0:
 scmp@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/scmp/-/scmp-2.0.0.tgz#247110ef22ccf897b13a3f0abddb52782393cd6a"
-  integrity sha1-JHEQ7yLM+JexOj8KvdtSeCOTzWo=
+  integrity sha512-FaHoAk75AYhT+rnBmMpkvHSIcQma4OHzYXOhn1XXtgNomi0FTV8YEXYuh2EIdCg5IKMVyFbXeJT4Cn96+fzABg==
 
 semver-diff@^2.0.0:
   version "2.1.0"
@@ -10092,10 +10102,17 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
-simple-encryptor@^1.1.0, simple-encryptor@^1.4.0:
+simple-encryptor@^1.1.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/simple-encryptor/-/simple-encryptor-1.4.0.tgz#60bfd1665011a7c0f50fe12a8b51b57b94dd1bc4"
   integrity sha512-g7UhXQ6flzimqzoaDqjGl5hBh4/+tJ4dtAIHaWhO9gtt+GkLRb3F/Xjv//XORFstkNxA+CFVzZJCLhs24NmrSQ==
+  dependencies:
+    scmp "2.0.0"
+
+simple-encryptor@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/simple-encryptor/-/simple-encryptor-3.0.0.tgz#c88df52e336037e276e731cbe89c75846c1a89c9"
+  integrity sha512-xRgj9pU3Gfkl+6iBYRoXM4BdEwY4bLdL1W0tp7AjGTA7Hytv5iwmB5tvJh6K2iVszvPPYimQjLFV8jRZz3fJ1g==
   dependencies:
     scmp "2.0.0"
 
