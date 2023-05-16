@@ -169,10 +169,10 @@
     json5 "^2.2.2"
     semver "^6.3.0"
 
-"@babel/eslint-parser@^7.11.0":
-  version "7.21.3"
-  resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.21.3.tgz#d79e822050f2de65d7f368a076846e7184234af7"
-  integrity sha512-kfhmPimwo6k4P8zxNs8+T7yR44q1LdpsZdE1NkCsVlfiuTPRfnGgjaF8Qgug9q9Pou17u6wneYF0lDCZJATMFg==
+"@babel/eslint-parser@^7.21.3":
+  version "7.21.8"
+  resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.21.8.tgz#59fb6fc4f3b017ab86987c076226ceef7b2b2ef2"
+  integrity sha512-HLhI+2q+BP3sf78mFUZNCGc10KEmoUqtUT1OCdMZsN+qr4qFeLUod62/zAnF3jNQstwyasDkZnVXwfK2Bml7MQ==
   dependencies:
     "@nicolo-ribaudo/eslint-scope-5-internals" "5.1.1-v1"
     eslint-visitor-keys "^2.1.0"
@@ -9313,10 +9313,10 @@ vuetify-loader@^1.2.2:
     file-loader "^6.2.0"
     loader-utils "^2.0.0"
 
-vuetify@^3.0.0:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.2.1.tgz#caa1d306a3ef8d52d300be4c7f6d94dc4fd897e4"
-  integrity sha512-XOGfDuDGG4j/dJSu73JrkfrGB141LoiLyoZecGtUou24xMf17Rnk+pzOH+YYRVgQ7HFc4kG95DzFmAXS5ysEGA==
+vuetify@^3.2.1:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.2.5.tgz#b37cb4d6decafd5be7b5c29346555d6161ea9972"
+  integrity sha512-HuLIydRkigGIfqDbwEjFw5LEtWCw8lV4K1isMv/7vAt8n5fns+8kKqVnktIQkfzSxQgPD6Lve/58j4dEKA/vTA==
 
 walker@^1.0.8:
   version "1.0.8"
