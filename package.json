@@ -26,7 +26,7 @@
     "@adonisjs/lucid": "^4.0.22",
     "@adonisjs/session": "^6.0.0",
     "@adonisjs/shield": "^7.0.0",
-    "vuetify": "^3.0.0",
+    "vuetify": "^3.2.1",
     "vuetify-loader": "^1.2.2",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0"
@@ -34,7 +34,7 @@
   "devDependencies": {
     "nodemon": "^2.0.0",
     "@nuxtjs/eslint-config": "^0.0.1",
-    "@babel/eslint-parser": "^7.11.0",
+    "@babel/eslint-parser": "^7.21.3",
     "eslint": "8.40.0",
     "eslint-config-standard": "17.0.0",
     "eslint-plugin-import": "2.17.2",
