@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "cross-env": "7.0.3",
-    "nuxt": "3.4.3",
+    "nuxt": "3.5.0",
     "@adonisjs/ace": "4.0.8",
     "@adonisjs/auth": "8.2.3",
     "@adonisjs/bodyparser": "1.0.8",
