@@ -31,16 +31,15 @@
     "@poppinss/utils" "^5.0.0"
     luxon "^3.0.4"
 
-"@adonisjs/bodyparser@8.1.7":
-  version "8.1.7"
-  resolved "https://registry.yarnpkg.com/@adonisjs/bodyparser/-/bodyparser-8.1.7.tgz#c26666ce7477c1a5b9195d9ae4095dc104df44e7"
-  integrity sha512-2ixzKGszAez1Qq6KNsNs0LcKSfqnZMiaqMleuTh/m4pBLw9CTsVqFS2YH181+6pBhFcTVcXkByh6T1P48Tq5Cw==
+"@adonisjs/bodyparser@8.1.8":
+  version "8.1.8"
+  resolved "https://registry.yarnpkg.com/@adonisjs/bodyparser/-/bodyparser-8.1.8.tgz#8dd39e540d8f6be52748e1730a0eb07969c81e85"
+  integrity sha512-Tct3NJwkC+uCU05K9FWLRhuh+T2xW28Oj1wtcl3TugaiUW0ZiBLPvfB2fZZuBuILNakSXGSxHFP0tr2Nl+f5/A==
   dependencies:
     "@poppinss/co-body" "^1.1.3"
     "@poppinss/multiparty" "^2.0.1"
     "@poppinss/utils" "^5.0.0"
     bytes "^3.1.2"
-    end-of-stream "^1.4.4"
     file-type "^16.5.4"
     fs-extra "^10.1.0"
     media-typer "^1.1.0"
@@ -3511,7 +3510,7 @@ encodeurl@^1.0.2, encodeurl@~1.0.2:
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
 
-end-of-stream@^1.4.1, end-of-stream@^1.4.4:
+end-of-stream@^1.4.1:
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
   integrity sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==
@@ -9107,10 +9106,10 @@ vuetify-loader@1.9.2:
     file-loader "^6.2.0"
     loader-utils "^2.0.0"
 
-vuetify@3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.3.2.tgz#8682486eb36b5d9d64c8f1c2bdfe36119f6ffbc6"
-  integrity sha512-m/R42di8FlyMaoktUe6k8JbF+A0vbJMpjQrZK7nH1ptK8VinVVQcaw+9m94wlO74IMR+LubxLh5t9I2ZtVCvjw==
+vuetify@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.3.3.tgz#82904abbed936abaf775b8394b0d094d4b56cbc7"
+  integrity sha512-oLpm6L6Zvf4b7Ua8V3INnUkGoxbi04O68ymEbBDLrPFzmIkzAcwd9L/2Ega582PRJnjTBBZapa6KdmosvhVvgA==
 
 walker@^1.0.8:
   version "1.0.8"
