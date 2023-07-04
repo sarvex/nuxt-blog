@@ -18,7 +18,7 @@
     "nuxt": "3.6.1",
     "@adonisjs/ace": "11.3.1",
     "@adonisjs/auth": "8.2.3",
-    "@adonisjs/bodyparser": "8.1.8",
+    "@adonisjs/bodyparser": "8.1.9",
     "@adonisjs/cors": "1.0.7",
     "@adonisjs/fold": "8.2.0",
     "@adonisjs/framework": "5.0.13",
@@ -34,7 +34,7 @@
   "devDependencies": {
     "nodemon": "2.0.22",
     "@nuxtjs/eslint-config": "12.0.0",
-    "@babel/eslint-parser": "7.22.5",
+    "@babel/eslint-parser": "7.22.6",
     "eslint": "8.44.0",
     "eslint-config-standard": "17.1.0",
     "eslint-plugin-import": "2.27.5",

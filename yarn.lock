@@ -36,10 +36,10 @@
     "@poppinss/utils" "^5.0.0"
     luxon "^3.0.4"
 
-"@adonisjs/bodyparser@8.1.8":
-  version "8.1.8"
-  resolved "https://registry.yarnpkg.com/@adonisjs/bodyparser/-/bodyparser-8.1.8.tgz#8dd39e540d8f6be52748e1730a0eb07969c81e85"
-  integrity sha512-Tct3NJwkC+uCU05K9FWLRhuh+T2xW28Oj1wtcl3TugaiUW0ZiBLPvfB2fZZuBuILNakSXGSxHFP0tr2Nl+f5/A==
+"@adonisjs/bodyparser@8.1.9":
+  version "8.1.9"
+  resolved "https://registry.yarnpkg.com/@adonisjs/bodyparser/-/bodyparser-8.1.9.tgz#beb5e2ecac059612cf20c3613c7508e39734a57a"
+  integrity sha512-enVETPmoBJhg+CP6AVlG/GSwllpW/5y22wjFpEhYZl0YOXnE7i+wsp2VeGfMtQzl4+snTuAPEfwCtG+I/s6jqQ==
   dependencies:
     "@poppinss/co-body" "^1.1.3"
     "@poppinss/multiparty" "^2.0.1"
@@ -198,14 +198,14 @@
     json5 "^2.2.2"
     semver "^6.3.0"
 
-"@babel/eslint-parser@7.22.5":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.22.5.tgz#fa032503b9e2d188e25b1b95d29e8b8431042d78"
-  integrity sha512-C69RWYNYtrgIRE5CmTd77ZiLDXqgBipahJc/jHP3sLcAGj6AJzxNIuKNpVnICqbyK7X3pFUfEvL++rvtbQpZkQ==
+"@babel/eslint-parser@7.22.6":
+  version "7.22.6"
+  resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.22.6.tgz#fa75b578a6392d92243eb8fb9c4e7ece8ad7c583"
+  integrity sha512-KAom7E7d6bAh5/PflF3luynWlDLOIqfX+ZJcL0LRs6/6rtXJmJxPiWuIGfxNPtcWdtQ5lSSJbKbQlz/c/R60Ng==
   dependencies:
     "@nicolo-ribaudo/eslint-scope-5-internals" "5.1.1-v1"
+    "@nicolo-ribaudo/semver-v6" "^6.3.3"
     eslint-visitor-keys "^2.1.0"
-    semver "^6.3.0"
 
 "@babel/generator@^7.21.5", "@babel/generator@^7.7.2":
   version "7.21.5"
@@ -1259,6 +1259,11 @@
   integrity sha512-54/JRvkLIzzDWshCWfuhadfrfZVPiElY8Fcgmg1HroEly/EDSszzhBAsarCux+D/kOslTRquNzuyGSmUSTTHGg==
   dependencies:
     eslint-scope "5.1.1"
+
+"@nicolo-ribaudo/semver-v6@^6.3.3":
+  version "6.3.3"
+  resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/semver-v6/-/semver-v6-6.3.3.tgz#ea6d23ade78a325f7a52750aab1526b02b628c29"
+  integrity sha512-3Yc1fUTs69MG/uZbJlLSI3JISMn2UV2rg+1D/vROUqZyh3l6iYHCs7GMp+M40ZD7yOdDbYjJcU1oTJhrc+dGKg==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
