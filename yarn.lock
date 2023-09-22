@@ -110,10 +110,10 @@
     youch "^2.0.10"
     youch-terminal "^1.0.0"
 
-"@adonisjs/lucid@18.4.0":
-  version "18.4.0"
-  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-18.4.0.tgz#845013b6ece5ba9f99344ad04920d3e496a19832"
-  integrity sha512-pSBhKFzqr6mWoeIiGdcW2OQIWAyCoLn+G7VmXXLqxHvGm+9SaioKJaSMmaJa0xgS5v64r/MVLeH/nw87Q4KpyQ==
+"@adonisjs/lucid@18.4.1":
+  version "18.4.1"
+  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-18.4.1.tgz#927dc7cbec00a7c14a7878684210d9ab6dee17e6"
+  integrity sha512-MIEVE8M7g6CcT9BAyal5iJMS9Ba8LBobjLzDFhRhj6I+leR83rQ3mSKmED9TWDBmj6W0VMiyZbVIfTyMhxxVtw==
   dependencies:
     "@faker-js/faker" "^8.0.1"
     "@poppinss/hooks" "^5.0.3"
