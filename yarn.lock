@@ -3195,10 +3195,10 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.3.8.tgz#f044942142e1d3a395f24132e6203a784838542d"
   integrity sha512-8PGwybFwM4x8pcfgqEQFy70NaQxASvOC5DJwLQfpArw1UDfUXrJkdxD3BhVTMS+0Lef/TU7YO0Jvr0jJY8T+mw==
 
-"@vue/test-utils@2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-2.4.2.tgz#43ce99c4e2eab0adbf1220257dc9974bc5ae38a7"
-  integrity sha512-07lLjpG1o9tEBoWQfVOFhDT7+WFCdDeECoeSdzOuVgIi6nxb2JDLGNNOV6+3crPpyg/jMlIocj96UROcgomiGg==
+"@vue/test-utils@2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-2.4.3.tgz#d86786d809f918c77fb9e1fafaa2438af37c17d3"
+  integrity sha512-F4K7mF+ad++VlTrxMJVRnenKSJmO6fkQt2wpRDiKDesQMkfpniGWsqEi/JevxGBo2qEkwwjvTUAoiGJLNx++CA==
   dependencies:
     js-beautify "^1.14.9"
     vue-component-type-helpers "^1.8.21"
@@ -11989,10 +11989,10 @@ vuetify-loader@1.9.2:
     file-loader "^6.2.0"
     loader-utils "^2.0.0"
 
-vuetify@3.4.3:
-  version "3.4.3"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.4.3.tgz#9316582a811136d32ecff2b214b399f400f4af10"
-  integrity sha512-b8yi87Zv4bn2JbaVkkV9uzSRw0fdY/v3ieWne0OTI29w/CNSyLyfHGBCrmx7eD74i562M1j+AwSSRJCX3wF0+Q==
+vuetify@3.4.4:
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.4.4.tgz#0819d03cbd554b27be25427773cbf2ebf9976e53"
+  integrity sha512-qnQy3iPOLMcyKUAb5Oi2hw+2qjc9NQK/M2i95ZUvjpHEF5mTBvGwCJ2xXV4Yn9eaGhuUtWBqgR/3Op42S3d41g==
 
 walker@^1.0.8:
   version "1.0.8"
