@@ -11999,10 +11999,10 @@ vuetify-loader@1.9.2:
     file-loader "^6.2.0"
     loader-utils "^2.0.0"
 
-vuetify@3.4.7:
-  version "3.4.7"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.4.7.tgz#3bb39f081fc66be0ad1038cf3c8458584a03354f"
-  integrity sha512-K++yer5H94Yi/uzgKDOTYRPA9qipVntomEohRsegfAnRqmFyw2x9clHVEoTRa/Fvk3nkHti0zn90Mp7mSUwVnw==
+vuetify@3.4.8:
+  version "3.4.8"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.4.8.tgz#df5b17f8450b0ca79bbef33be0bcd4359bfcabe7"
+  integrity sha512-fx/cVZNYU1Pk1LWevbCCKU5pv2ew/8EWkLhF75LHSzgU6b0skzQaIq6Gr/qSXbUDAPuJz7zqqGbFD6CSNYsY0w==
 
 walker@^1.0.8:
   version "1.0.8"
