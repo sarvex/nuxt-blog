@@ -18,7 +18,7 @@
     "nuxt": "3.9.1",
     "@adonisjs/ace": "13.0.0",
     "@adonisjs/auth": "8.2.3",
-    "@adonisjs/bodyparser": "8.1.9",
+    "@adonisjs/bodyparser": "10.0.0",
     "@adonisjs/cors": "2.1.1",
     "@adonisjs/fold": "10.0.0",
     "@adonisjs/framework": "5.0.13",
