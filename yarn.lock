@@ -145,13 +145,12 @@
     haye "^2.0.1"
     lodash "^4.17.5"
 
-"@adonisjs/session@6.4.0":
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/@adonisjs/session/-/session-6.4.0.tgz#464201a02df6a5d05c3ff423565ab0e7914c355d"
-  integrity sha512-9yHS60lFpNBUX5/yB+0j+bXQDWqbaYJ1JelLCYtaKRa7B0NewvmPAmsNpHH8SrXE3XGaRyKOxrUGRcmSGg5mRA==
+"@adonisjs/session@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/session/-/session-7.0.0.tgz#0001ddaf1b15f451b7f207606aeaf312aca26dd5"
+  integrity sha512-2HadMSWJfAmsHY0HkfEeb2Zrph0vtdkiZqLokNXAGtsCIuScC2GV1okcNkS1qTKhAfloTWybfwMEmJp4fFwuKg==
   dependencies:
-    "@poppinss/utils" "^4.0.4"
-    fs-extra "^10.1.0"
+    "@poppinss/utils" "^6.7.0"
 
 "@adonisjs/shield@7.1.1":
   version "7.1.1"
@@ -5915,15 +5914,6 @@ fresh@0.5.2, fresh@^0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
-
-fs-extra@^10.1.0:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
-  integrity sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==
-  dependencies:
-    graceful-fs "^4.2.0"
-    jsonfile "^6.0.1"
-    universalify "^2.0.0"
 
 fs-extra@^11.1.0, fs-extra@^11.1.1:
   version "11.1.1"
