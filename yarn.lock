@@ -55,10 +55,10 @@
     qs "^6.11.1"
     raw-body "^2.5.2"
 
-"@adonisjs/cors@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@adonisjs/cors/-/cors-2.2.0.tgz#410b123c061de94bd950f116943b3ec5c2befb8d"
-  integrity sha512-9irtbjDp+jygF4lyMafWUyUUqHvwqyc3tZu6EA6wVClFYKkzVVMM3vr1Gldmk5616lvbg9IH0bhil/TsV68a4w==
+"@adonisjs/cors@2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@adonisjs/cors/-/cors-2.2.1.tgz#b6a3ca1129a6fbb37c0f4e5221a1d2d1b9c91608"
+  integrity sha512-qnrSG8ylpgTeZBOYEN3yXxY0PBUEg1KGDhgn9VKVFGxLKT+o9GGVOSZxUK3wG341B1zB9w5vuZN1z4M0Jitb6g==
 
 "@adonisjs/fold@10.0.0":
   version "10.0.0"
