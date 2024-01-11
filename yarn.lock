@@ -115,23 +115,24 @@
     youch "^2.0.10"
     youch-terminal "^1.0.0"
 
-"@adonisjs/lucid@18.4.2":
-  version "18.4.2"
-  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-18.4.2.tgz#2cfc44b90ce4719153412d0d2a2d271402998dc4"
-  integrity sha512-4k8GOat/YQtobNqwBIU8VAuY19p+V3ucBRoZ+iwxd/qy/KE1XupPzuMZVWYt1vyBboCrBmEYYmvC851tNqoP0A==
+"@adonisjs/lucid@19.0.0":
+  version "19.0.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-19.0.0.tgz#76e7256c64136663f4caff41313f87f6c22b14f5"
+  integrity sha512-poCchuJKORlMIQ9jAL8wH7AihZjVwHWePNJo17ISbBxlFJxKr9BBAsaCePwqGQECZXXw7QLxr0fkmAWtbc8cGw==
   dependencies:
-    "@faker-js/faker" "^8.0.1"
-    "@poppinss/hooks" "^5.0.3"
-    "@poppinss/utils" "^5.0.0"
+    "@adonisjs/presets" "^2.1.1"
+    "@faker-js/faker" "^8.3.1"
+    "@poppinss/hooks" "^7.2.2"
+    "@poppinss/macroable" "^1.0.1"
+    "@poppinss/utils" "^6.7.0"
     fast-deep-equal "^3.1.3"
     igniculus "^1.5.0"
-    knex "^2.4.2"
-    knex-dynamic-connection "^3.0.1"
-    luxon "^3.3.0"
-    macroable "^7.0.2"
+    kleur "^4.1.5"
+    knex "^3.1.0"
+    knex-dynamic-connection "^3.1.1"
     pretty-hrtime "^1.0.3"
     qs "^6.11.2"
-    slash "^3.0.0"
+    slash "^5.1.0"
     tarn "^3.0.2"
 
 "@adonisjs/middleware-base@^1.0.0":
@@ -144,6 +145,13 @@
     debug "^3.1.0"
     haye "^2.0.1"
     lodash "^4.17.5"
+
+"@adonisjs/presets@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@adonisjs/presets/-/presets-2.1.1.tgz#7d22609a31d539159203ea61061934d578b42d85"
+  integrity sha512-B7REU1DeUyxwhrDpGGwdjaC3DJeUVEtuxzHrPgUlUUNL+62WjqsE8FKXpVb9uFOUX43v2DkJYAznZkr2BjveYA==
+  dependencies:
+    "@poppinss/utils" "^6.7.0"
 
 "@adonisjs/session@7.0.0":
   version "7.0.0"
@@ -1309,10 +1317,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.56.0.tgz#ef20350fec605a7f7035a01764731b2de0f3782b"
   integrity sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==
 
-"@faker-js/faker@^8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-8.0.1.tgz#2157068931aaab555eda5ff87f50330aeeb6153a"
-  integrity sha512-kbh5MenpTN9U0B4QcOI1NoTPlZHniSYQ3BHbhAnPjJGAmmFqxoxTE4sGdpy7ZOO9038DPGCuhXyMkjOr05uVwA==
+"@faker-js/faker@^8.3.1":
+  version "8.3.1"
+  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-8.3.1.tgz#7753df0cb88d7649becf984a96dd1bd0a26f43e3"
+  integrity sha512-FdgpFxY6V6rLZE9mmIBb9hM0xpfvQOSNOLnzolzKwsE1DH+gC7lEKV1p1IbR0lAYyvYd5a4u3qWJzowUkw1bIw==
 
 "@fastify/busboy@^2.0.0":
   version "2.0.0"
@@ -4189,11 +4197,6 @@ commander@^8.0.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-8.3.0.tgz#4837ea1b2da67b9c616a67afbb0fafee567bca66"
   integrity sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==
-
-commander@^9.1.0:
-  version "9.5.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-9.5.0.tgz#bc08d1eb5cedf7ccb797a96199d41c7bc3e60d30"
-  integrity sha512-KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ==
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -7660,21 +7663,21 @@ klona@^2.0.6:
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.6.tgz#85bffbf819c03b2f53270412420a4555ef882e22"
   integrity sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==
 
-knex-dynamic-connection@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/knex-dynamic-connection/-/knex-dynamic-connection-3.0.1.tgz#d63bb89b9ab1d0d2e62b6f4e52e66884b09fe2c2"
-  integrity sha512-1H/Gif1FQVxBiBPVqxHnnHIIBTXkpp/2dpwOJw1nNkoTZ3FnX9Ta1fgRPKojzc9nbQnn1FDhlxmEXBjvD+u8tQ==
+knex-dynamic-connection@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/knex-dynamic-connection/-/knex-dynamic-connection-3.1.1.tgz#b4e06de764447fdf1f0c4ac788a6e9c18e84bb4c"
+  integrity sha512-Omq2Mw+5LkjJvZX+ESWpLx2FYkH9SB6Qq4Jad7f2LNQOQV1VLq91QQqtEhkgprnQuT3IUvzFooARpSN1uzoMEg==
   dependencies:
     debug "^4.3.4"
-    knex "^2.4.2"
+    knex "^3.0.1"
 
-knex@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/knex/-/knex-2.4.2.tgz#a34a289d38406dc19a0447a78eeaf2d16ebedd61"
-  integrity sha512-tMI1M7a+xwHhPxjbl/H9K1kHX+VncEYcvCx5K00M16bWvpYPKAZd6QrCu68PtHAdIZNQPWZn0GVhqVBEthGWCg==
+knex@^3.0.1, knex@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/knex/-/knex-3.1.0.tgz#b6ddd5b5ad26a6315234a5b09ec38dc4a370bd8c"
+  integrity sha512-GLoII6hR0c4ti243gMs5/1Rb3B+AjwMOfjYm97pu0FOQa7JH56hgBxYf5WK2525ceSbBY1cjeZ9yk99GPMB6Kw==
   dependencies:
     colorette "2.0.19"
-    commander "^9.1.0"
+    commander "^10.0.0"
     debug "4.3.4"
     escalade "^3.1.1"
     esm "^3.2.25"
@@ -7682,7 +7685,7 @@ knex@^2.4.2:
     getopts "2.3.0"
     interpret "^2.2.0"
     lodash "^4.17.21"
-    pg-connection-string "2.5.0"
+    pg-connection-string "2.6.2"
     rechoir "^0.8.0"
     resolve-from "^5.0.0"
     tarn "^3.0.2"
@@ -7934,7 +7937,7 @@ lru-cache@^7.7.1:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.18.3.tgz#f793896e0fd0e954a59dfdd82f0773808df6aa89"
   integrity sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==
 
-luxon@^3.0.4, luxon@^3.3.0:
+luxon@^3.0.4:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.3.0.tgz#d73ab5b5d2b49a461c47cedbc7e73309b4805b48"
   integrity sha512-An0UCfG/rSiqtAIiBPO0Y9/zAnHUZxAMiCpTd5h2smgsj7GGmcenvrvww2cqNA8/4A5ZrD1gJpHN2mIHZQF+Mg==
@@ -7945,11 +7948,6 @@ macroable@^1.0.0:
   integrity sha1-I+Y0gyXG0GgqZQIfiL70CIve0WA=
   dependencies:
     node-exceptions "^2.0.1"
-
-macroable@^7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/macroable/-/macroable-7.0.2.tgz#0aa17b5f3c3b4e4dc2c1a44a245db7859111f489"
-  integrity sha512-QS9p+Q20YBxpE0dJBnF6CPURP7p1GUsxnhTxTWH5nG3A1F5w8Rg3T4Xyh5UlrFSbHp88oOciVP/0agsNLhkHdQ==
 
 magic-string-ast@^0.3.0:
   version "0.3.0"
@@ -9192,10 +9190,10 @@ perfect-debounce@^1.0.0:
   resolved "https://registry.yarnpkg.com/perfect-debounce/-/perfect-debounce-1.0.0.tgz#9c2e8bc30b169cc984a58b7d5b28049839591d2a"
   integrity sha512-xCy9V055GLEqoFaHoC1SoLIaLmWctgCUaBaWxDZ7/Zx4CTyX7cJQLJOok/orfjZAh9kEYpjJa4d0KcJmCbctZA==
 
-pg-connection-string@2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.5.0.tgz#538cadd0f7e603fc09a12590f3b8a452c2c0cf34"
-  integrity sha512-r5o/V/ORTA6TmUnyWZR9nCj1klXCO2CEKNRlVuJptZe85QuhFayC7WeMic7ndayT5IRIR0S0xFxFi2ousartlQ==
+pg-connection-string@2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.6.2.tgz#713d82053de4e2bd166fab70cd4f26ad36aab475"
+  integrity sha512-ch6OwaeaPYcova4kKZ15sbJ2hKb/VP48ZD2gE7i1J+L4MspCtBMAx8nMgz7bksc7IojCIIWuEhHibSMFH8m8oA==
 
 picocolors@^1.0.0:
   version "1.0.0"
