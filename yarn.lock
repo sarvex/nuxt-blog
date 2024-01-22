@@ -166,12 +166,12 @@
   dependencies:
     "@poppinss/utils" "^6.7.1"
 
-"@adonisjs/shield@8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@adonisjs/shield/-/shield-8.0.1.tgz#d80e38d6d9d6aacfe15aa871fdae7b1f35556488"
-  integrity sha512-Bjp1N3L6HGD4JVzYgYD0q6oXc6vFljsWL7HWg3Vue86byLI8k8VOSPFOm61NNna8DmSLV5Iw/L6q+LBWnnRp8Q==
+"@adonisjs/shield@8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/shield/-/shield-8.1.0.tgz#dd19f6ca3aa8920d1331770a5e7a970e61778a71"
+  integrity sha512-mLI5We/98s1P4zsk9SLIJ31r48l67oxPusto1issQcXE6fFPBSDRqGmkfAKLIyhbc+gNoq8N/iFg6xINWClb5g==
   dependencies:
-    "@poppinss/utils" "^6.7.0"
+    "@poppinss/utils" "^6.7.1"
     csrf "^3.1.0"
     helmet-csp "^3.4.0"
 
