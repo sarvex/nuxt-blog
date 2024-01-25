@@ -29,12 +29,12 @@
     youch "^3.3.3"
     youch-terminal "^2.2.3"
 
-"@adonisjs/auth@9.0.2":
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/@adonisjs/auth/-/auth-9.0.2.tgz#e57af9bd5596cf2794e7663eb95e8ce89cbd9692"
-  integrity sha512-jNNVZCJKpT0FftmC8pb8j6Fk03HZZBT2ZxhLe3tWqSSpv4MITOz4tmfdSXRSLFZui+/kGUQcqM/wjy4O/Ub7BQ==
+"@adonisjs/auth@9.0.3":
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/@adonisjs/auth/-/auth-9.0.3.tgz#4c8cd3d9b06103b12482bb0b9dcd2b0b6b390a13"
+  integrity sha512-BPgZIf9rRQdnVDpihRKVbWE6suQtcYe+nqxlf9oIcGg8BBPbShs4LBj0vzZ+kHvYDJIag5JETeuE+KHXWuyPtg==
   dependencies:
-    "@adonisjs/presets" "^2.2.1"
+    "@adonisjs/presets" "^2.2.3"
     basic-auth "^2.0.1"
 
 "@adonisjs/bodyparser@10.0.1":
@@ -144,13 +144,6 @@
     debug "^3.1.0"
     haye "^2.0.1"
     lodash "^4.17.5"
-
-"@adonisjs/presets@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@adonisjs/presets/-/presets-2.2.1.tgz#99ca655a3ac01c0e744be54e214c576327120f21"
-  integrity sha512-4MiOTJ5udLkpEavmf+CgrzxCK9R8RMutr9eqcKE0iqXYcZXuoVFgHnoT2BiwIAAUS/hv8F8Iwr2mFDVxSC6/0Q==
-  dependencies:
-    "@poppinss/utils" "^6.7.1"
 
 "@adonisjs/presets@^2.2.3":
   version "2.2.3"
