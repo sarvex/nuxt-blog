@@ -23,7 +23,7 @@
     "@adonisjs/fold": "10.0.1",
     "@adonisjs/framework": "5.0.13",
     "@adonisjs/ignitor": "2.0.8",
-    "@adonisjs/lucid": "20.0.0",
+    "@adonisjs/lucid": "20.1.0",
     "@adonisjs/session": "7.1.1",
     "@adonisjs/shield": "8.1.0",
     "vuetify": "3.5.1",
