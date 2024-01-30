@@ -29,10 +29,10 @@
     youch "^3.3.3"
     youch-terminal "^2.2.3"
 
-"@adonisjs/auth@9.1.0":
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/@adonisjs/auth/-/auth-9.1.0.tgz#2e72d14c2fb67aaf5ac40096382d2e03971a171f"
-  integrity sha512-3b/qQHkemtrIBnCJapF5+MWSOcji0fExz2xaR5ZkI8sFMUuhiymQjp+rKN89zedtG5A3B+iROymP02l9GoUN1w==
+"@adonisjs/auth@9.1.1":
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/@adonisjs/auth/-/auth-9.1.1.tgz#cdb2395509212b2e8b496507f8eaf3b1688b7522"
+  integrity sha512-gusUQT/9xWYZvdOzHQeqFlI1WDsxi0DIHxjkCNcExwLHpCwBvJ2+VItQ5+dBx5Aryi7Szm2C4od/vg08f//A5g==
   dependencies:
     "@adonisjs/presets" "^2.2.3"
     basic-auth "^2.0.1"
