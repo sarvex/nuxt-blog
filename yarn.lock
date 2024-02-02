@@ -159,10 +159,10 @@
   dependencies:
     "@poppinss/utils" "^6.7.1"
 
-"@adonisjs/shield@8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@adonisjs/shield/-/shield-8.1.0.tgz#dd19f6ca3aa8920d1331770a5e7a970e61778a71"
-  integrity sha512-mLI5We/98s1P4zsk9SLIJ31r48l67oxPusto1issQcXE6fFPBSDRqGmkfAKLIyhbc+gNoq8N/iFg6xINWClb5g==
+"@adonisjs/shield@8.1.1":
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/@adonisjs/shield/-/shield-8.1.1.tgz#5abd035cd22bc35fe36279d07c9910f985102aab"
+  integrity sha512-b/rIypxfG8HKPRvWYJo7qhvAlvYCFXn7/A7eb/QI/PQV4fMmW4iF9tAykxl5peu4WJCHCwXwR3Y6/j0VerQcmQ==
   dependencies:
     "@poppinss/utils" "^6.7.1"
     csrf "^3.1.0"
