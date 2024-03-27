@@ -114,10 +114,10 @@
     youch "^2.0.10"
     youch-terminal "^1.0.0"
 
-"@adonisjs/lucid@20.4.0":
-  version "20.4.0"
-  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-20.4.0.tgz#7e2aaead039ad3626fb1ed25755b3e78f3befdb3"
-  integrity sha512-q4gwLeQ4ryWTLhqOUCdDUT5D1MHiErfG9EAQw1sTQYuEzFBo4lu31cq59DWPdL6cuId9ucZ8CMQPiYEEPuAakg==
+"@adonisjs/lucid@20.5.1":
+  version "20.5.1"
+  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-20.5.1.tgz#dce38122c336af1eb5b8a1d9087aea75eb11bdba"
+  integrity sha512-PXzeRTbkPFhf5ttRv6LbKYbtXXWrYUWxrVmXecHvNbrKZSlP7XQOm45Pgk75lStAXBkEqxgvlC9PRHgM+Bdrog==
   dependencies:
     "@adonisjs/presets" "^2.2.5"
     "@faker-js/faker" "^8.4.1"
