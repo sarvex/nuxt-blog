@@ -59,12 +59,12 @@
   resolved "https://registry.yarnpkg.com/@adonisjs/cors/-/cors-2.2.1.tgz#b6a3ca1129a6fbb37c0f4e5221a1d2d1b9c91608"
   integrity sha512-qnrSG8ylpgTeZBOYEN3yXxY0PBUEg1KGDhgn9VKVFGxLKT+o9GGVOSZxUK3wG341B1zB9w5vuZN1z4M0Jitb6g==
 
-"@adonisjs/fold@10.0.1":
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/@adonisjs/fold/-/fold-10.0.1.tgz#5a8dad47a9062960da6b6d86ba1d5fcfa20ce5db"
-  integrity sha512-3SqwopxFtvy3WDs1Z3ZOdjS1M3JfTX8r0dCEQ+ascXhiLYwmv0LCoCY3vcmwVL+wpuyOG1qkKWkjZP1sB3+/bA==
+"@adonisjs/fold@10.1.0":
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/fold/-/fold-10.1.0.tgz#75f94c63b8978e04cb5846b4004d8e4cb922c4ba"
+  integrity sha512-XdtowiqV0QO0w7XHdoxN6EoMXz6c0x5VMTTmrGnOlPiQXDFelA6xLJReWA/JDYRHpM/ePRr4tnTT+GRRiCCs7A==
   dependencies:
-    "@poppinss/utils" "^6.7.1"
+    "@poppinss/utils" "^6.7.3"
 
 "@adonisjs/framework@5.0.13":
   version "5.0.13"
@@ -2420,6 +2420,24 @@
     bytes "^3.1.2"
     case-anything "^2.1.13"
     flattie "^1.1.0"
+    pluralize "^8.0.0"
+    safe-stable-stringify "^2.4.3"
+    secure-json-parse "^2.7.0"
+    slash "^5.1.0"
+    slugify "^1.6.6"
+    truncatise "^0.0.8"
+
+"@poppinss/utils@^6.7.3":
+  version "6.7.3"
+  resolved "https://registry.yarnpkg.com/@poppinss/utils/-/utils-6.7.3.tgz#7f0709902addf36b74853cde542d65c333612abe"
+  integrity sha512-zQnhVG4Q+n6+V1vrL/TF1Oy8ZcVVGUs49Sj5OBgoari/q42UiG/rht1DRvoeWd9bT1BBDwxO2vcfxj6C0u/Dgg==
+  dependencies:
+    "@lukeed/ms" "^2.0.2"
+    "@types/bytes" "^3.1.4"
+    "@types/pluralize" "^0.0.33"
+    bytes "^3.1.2"
+    case-anything "^2.1.13"
+    flattie "^1.1.1"
     pluralize "^8.0.0"
     safe-stable-stringify "^2.4.3"
     secure-json-parse "^2.7.0"
@@ -6169,6 +6187,11 @@ flattie@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/flattie/-/flattie-1.1.0.tgz#1459504209f2001c478751b4e2fb69d6b1ee3241"
   integrity sha512-xU99gDEnciIwJdGcBmNHnzTJ/w5AT+VFJOu6sTB6WM8diOYNA3Sa+K1DiEBQ7XH4QikQq3iFW1U+jRVcotQnBw==
+
+flattie@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/flattie/-/flattie-1.1.1.tgz#88182235723113667d36217fec55359275d6fe3d"
+  integrity sha512-9UbaD6XdAL97+k/n+N7JwX46K/M6Zc6KcFYskrYL8wbBV/Uyk0CTAMY0VT+qiK5PM7AIc9aTWYtq65U7T+aCNQ==
 
 fn.name@1.x.x:
   version "1.1.0"
