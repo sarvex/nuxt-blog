@@ -159,12 +159,13 @@
   dependencies:
     "@poppinss/utils" "^6.7.3"
 
-"@adonisjs/session@7.3.0":
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/@adonisjs/session/-/session-7.3.0.tgz#ecf68a5908a445d37b9ccaa0b7fefc87d875deb2"
-  integrity sha512-ntRDubmOJf8fHZY7IlXHVv4QKgGwfMsWghj9rBh9TVWLVwPeHLBnfHF3oLw25nbXM6hQTa1fPpencol71KrPnw==
+"@adonisjs/session@7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/session/-/session-7.4.0.tgz#2ebfe16d646ad91e5bb64a1738f440b5a2e22b05"
+  integrity sha512-RPlCZhTbIM5qrbH/c0tYrZlXPHknwdV3wNzI0yYr9Nsj9JCNMzAMPe8k8c+is1hp0wLNbVM+TdNsDPpSlRhk4A==
   dependencies:
-    "@poppinss/utils" "^6.7.2"
+    "@poppinss/macroable" "^1.0.2"
+    "@poppinss/utils" "^6.7.3"
 
 "@adonisjs/shield@8.1.1":
   version "8.1.1"
@@ -2317,6 +2318,11 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@poppinss/macroable/-/macroable-1.0.1.tgz#288c8f93d15bdae3634e82f8581932f45e34d86d"
   integrity sha512-bO3+rnqGhE+gdx4DOyYjY9jCm2+c5Ncyl2Gmst0w271rIFnsB00btonpdmAqvFNzS8rcas+APGm+47fYMmkpQA==
+
+"@poppinss/macroable@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@poppinss/macroable/-/macroable-1.0.2.tgz#bdf2fb8648334410a1a53173e5b2d1995d3848af"
+  integrity sha512-xhhEcEvhQC8mP5oOr5hbE4CmUgmw/IPV1jhpGg2xSkzoFrt9i8YVqBQt9744EFesi5F7pBheWozg63RUBM/5JA==
 
 "@poppinss/multiparty@^2.0.1":
   version "2.0.1"
