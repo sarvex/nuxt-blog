@@ -59,10 +59,10 @@
   resolved "https://registry.yarnpkg.com/@adonisjs/cors/-/cors-2.2.1.tgz#b6a3ca1129a6fbb37c0f4e5221a1d2d1b9c91608"
   integrity sha512-qnrSG8ylpgTeZBOYEN3yXxY0PBUEg1KGDhgn9VKVFGxLKT+o9GGVOSZxUK3wG341B1zB9w5vuZN1z4M0Jitb6g==
 
-"@adonisjs/fold@10.1.0":
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/@adonisjs/fold/-/fold-10.1.0.tgz#75f94c63b8978e04cb5846b4004d8e4cb922c4ba"
-  integrity sha512-XdtowiqV0QO0w7XHdoxN6EoMXz6c0x5VMTTmrGnOlPiQXDFelA6xLJReWA/JDYRHpM/ePRr4tnTT+GRRiCCs7A==
+"@adonisjs/fold@10.1.1":
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/@adonisjs/fold/-/fold-10.1.1.tgz#4d54e068142651b92e9ef0e74369ad8ed8941d64"
+  integrity sha512-4Kn3Vv0PSMoHPcBPuSVsuNTDMhJNX23E0ZXheJTYkW+uXcKFh9HBh9jkzpALNmXSYcDKZM2uezZrGbQLvHP7xg==
   dependencies:
     "@poppinss/utils" "^6.7.3"
 
