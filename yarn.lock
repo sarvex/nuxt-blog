@@ -114,23 +114,23 @@
     youch "^2.0.10"
     youch-terminal "^1.0.0"
 
-"@adonisjs/lucid@20.5.1":
-  version "20.5.1"
-  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-20.5.1.tgz#dce38122c336af1eb5b8a1d9087aea75eb11bdba"
-  integrity sha512-PXzeRTbkPFhf5ttRv6LbKYbtXXWrYUWxrVmXecHvNbrKZSlP7XQOm45Pgk75lStAXBkEqxgvlC9PRHgM+Bdrog==
+"@adonisjs/lucid@20.6.0":
+  version "20.6.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-20.6.0.tgz#8fbb7d639b1e565b2e35ce46fca654ba25ac1eb0"
+  integrity sha512-LTHc3xjGukjEcy0972l4DUkmlnhXuzvlMGt7zqyfbbn4XmRk6b6RczYPhjUEVqUvNzx845L7RnqTJ8mblHHnmQ==
   dependencies:
-    "@adonisjs/presets" "^2.2.5"
+    "@adonisjs/presets" "^2.4.0"
     "@faker-js/faker" "^8.4.1"
-    "@poppinss/hooks" "^7.2.2"
-    "@poppinss/macroable" "^1.0.1"
-    "@poppinss/utils" "^6.7.2"
+    "@poppinss/hooks" "^7.2.3"
+    "@poppinss/macroable" "^1.0.2"
+    "@poppinss/utils" "^6.7.3"
     fast-deep-equal "^3.1.3"
     igniculus "^1.5.0"
     kleur "^4.1.5"
     knex "^3.1.0"
     knex-dynamic-connection "^3.1.1"
     pretty-hrtime "^1.0.3"
-    qs "^6.11.2"
+    qs "^6.12.1"
     slash "^5.1.0"
     tarn "^3.0.2"
 
@@ -144,13 +144,6 @@
     debug "^3.1.0"
     haye "^2.0.1"
     lodash "^4.17.5"
-
-"@adonisjs/presets@^2.2.5":
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/@adonisjs/presets/-/presets-2.2.5.tgz#d994e50a48ec00e6388a10ea26cd40d92422483c"
-  integrity sha512-VgVU0b4WkRAAvn4GKlDAicfneu9s1StcviF5JbTwFkvzrz2AR3RIPzES2DeLvQTYXRq67RIxJWyGEKlJN7WTwA==
-  dependencies:
-    "@poppinss/utils" "^6.7.1"
 
 "@adonisjs/presets@^2.4.0":
   version "2.4.0"
@@ -2319,6 +2312,11 @@
   resolved "https://registry.yarnpkg.com/@poppinss/hooks/-/hooks-7.2.2.tgz#bf1194a96de7b3f29ac626325991952082de28f9"
   integrity sha512-EDivPMt9sAUV5kNhH2bvtVjuLvHhQ6SKVP19OjvvcyRalqAa6KqCItJ2qeU8A93s0cr1a28Sytu+KSwsmOY8pg==
 
+"@poppinss/hooks@^7.2.3":
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/@poppinss/hooks/-/hooks-7.2.3.tgz#d25edd63d71be509399d31c694462233075de9f5"
+  integrity sha512-+B7YSazGaCMcoUubwEkCTnpAvJ+Fv7tqgtpu7cm9qt1adEjmXDmaiG76loEnmxAkyHrbZJ5xHGNSD0NwMhLcnA==
+
 "@poppinss/macroable@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@poppinss/macroable/-/macroable-1.0.1.tgz#288c8f93d15bdae3634e82f8581932f45e34d86d"
@@ -2369,24 +2367,6 @@
   version "6.7.1"
   resolved "https://registry.yarnpkg.com/@poppinss/utils/-/utils-6.7.1.tgz#557b0d2266874891fdaac91e5f28aef9efb325a4"
   integrity sha512-M/IiE/lp493QEcDXpFHqlJGU4Tw0mw2JLCH1NgmL2UtL9QL4aTgd0MPwjIYOtikA0ug/oJwM1e7z1NKTGig/rw==
-  dependencies:
-    "@lukeed/ms" "^2.0.2"
-    "@types/bytes" "^3.1.4"
-    "@types/pluralize" "^0.0.33"
-    bytes "^3.1.2"
-    case-anything "^2.1.13"
-    flattie "^1.1.0"
-    pluralize "^8.0.0"
-    safe-stable-stringify "^2.4.3"
-    secure-json-parse "^2.7.0"
-    slash "^5.1.0"
-    slugify "^1.6.6"
-    truncatise "^0.0.8"
-
-"@poppinss/utils@^6.7.2":
-  version "6.7.2"
-  resolved "https://registry.yarnpkg.com/@poppinss/utils/-/utils-6.7.2.tgz#e494534f09e88720c12d13b1036ad6e0a32222db"
-  integrity sha512-C7K0gy7nW0XzlWcuVrSqT1nLQBAddhpgbnvHtYtxFYkS/BdJKzeVz771c80yhLcmrqXoGqZZgjdC7y6Me1L4Tg==
   dependencies:
     "@lukeed/ms" "^2.0.2"
     "@types/bytes" "^3.1.4"
@@ -10204,19 +10184,19 @@ pure-rand@^6.0.0:
   resolved "https://registry.yarnpkg.com/pure-rand/-/pure-rand-6.0.2.tgz#a9c2ddcae9b68d736a8163036f088a2781c8b306"
   integrity sha512-6Yg0ekpKICSjPswYOuC5sku/TSWaRYlA0qsXqJgM/d/4pLPHPuTxK7Nbf7jFKzAeedUhR8C7K9Uv63FBsSo8xQ==
 
-qs@^6.11.2, qs@^6.5.2:
-  version "6.11.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.2.tgz#64bea51f12c1f5da1bc01496f48ffcff7c69d7d9"
-  integrity sha512-tDNIz22aBzCDxLtVH++VnTfzxlfeK5CbqohpSqpJgj1Wg/cQbStNAz3NuqCs5vV+pjBsK4x4pN9HlVh7rcYRiA==
-  dependencies:
-    side-channel "^1.0.4"
-
 qs@^6.12.1:
   version "6.12.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.12.1.tgz#39422111ca7cbdb70425541cba20c7d7b216599a"
   integrity sha512-zWmv4RSuB9r2mYQw3zxQuHWeU+42aKi1wWig/j4ele4ygELZ7PEO6MM7rim9oAQH2A5MWfsAVf/jPvTPgCbvUQ==
   dependencies:
     side-channel "^1.0.6"
+
+qs@^6.5.2:
+  version "6.11.2"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.2.tgz#64bea51f12c1f5da1bc01496f48ffcff7c69d7d9"
+  integrity sha512-tDNIz22aBzCDxLtVH++VnTfzxlfeK5CbqohpSqpJgj1Wg/cQbStNAz3NuqCs5vV+pjBsK4x4pN9HlVh7rcYRiA==
+  dependencies:
+    side-channel "^1.0.4"
 
 queue-microtask@^1.2.2:
   version "1.2.3"
