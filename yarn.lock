@@ -114,12 +114,12 @@
     youch "^2.0.10"
     youch-terminal "^1.0.0"
 
-"@adonisjs/lucid@21.0.0":
-  version "21.0.0"
-  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-21.0.0.tgz#c2b3acdf990fd80784ad985067117b1c212649c3"
-  integrity sha512-kByCR28V4HkfiigJH99LMyUkXJzV9fCfcWcORIkMTVorenoKpUP3rWdc3JlbAY6hL7S/tWyBPTTiX9mdvDWGEw==
+"@adonisjs/lucid@21.1.0":
+  version "21.1.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-21.1.0.tgz#1d588b59bc65965b1992fb5d8f6ef9e6d7155210"
+  integrity sha512-2Wz+S65lmgPJZm81I0uQl9s+FekIfO9o7beyCXZEvNpawlJaY2ebnFfs9fSDy66a2ZUFMtiUHZbTJAZ/AUbPuQ==
   dependencies:
-    "@adonisjs/presets" "^2.4.1"
+    "@adonisjs/presets" "^2.5.1"
     "@faker-js/faker" "^8.4.1"
     "@poppinss/hooks" "^7.2.3"
     "@poppinss/macroable" "^1.0.2"
@@ -144,13 +144,6 @@
     debug "^3.1.0"
     haye "^2.0.1"
     lodash "^4.17.5"
-
-"@adonisjs/presets@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@adonisjs/presets/-/presets-2.4.1.tgz#808971300bad26eb8298c683182b607a41d1ce9c"
-  integrity sha512-STJ021TGsvfTGs1oEielf0ww+RxBMFLzNy94Um2hkJZbCLpsBVchKcjJg4IH2nnU7htrlm1DbNXusg/OtiAW3Q==
-  dependencies:
-    "@poppinss/utils" "^6.7.3"
 
 "@adonisjs/presets@^2.5.1":
   version "2.6.0"
