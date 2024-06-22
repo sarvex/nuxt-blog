@@ -24,7 +24,7 @@
     "@adonisjs/framework": "5.0.13",
     "@adonisjs/ignitor": "2.0.8",
     "@adonisjs/lucid": "21.1.0",
-    "@adonisjs/session": "7.4.1",
+    "@adonisjs/session": "7.4.2",
     "@adonisjs/shield": "8.1.1",
     "vuetify": "3.6.10",
     "vuetify-loader": "1.9.2",
