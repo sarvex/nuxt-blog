@@ -12,21 +12,21 @@
   resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.3.3.tgz#90749bde8b89cd41764224f5aac29cd4138f75ff"
   integrity sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==
 
-"@adonisjs/ace@13.2.0":
-  version "13.2.0"
-  resolved "https://registry.yarnpkg.com/@adonisjs/ace/-/ace-13.2.0.tgz#84ba99d70531373b73015e9f8c3f225ab904a185"
-  integrity sha512-yVMgbicPm0vUoWkklIBnoigZtcOguEAg8KKgTupLft9vTteKBYfgnxCpO1fVjPvjXPb5RiaTACbYyR7jGmZ6fA==
+"@adonisjs/ace@13.3.0":
+  version "13.3.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/ace/-/ace-13.3.0.tgz#832c9a4097888ad5dd85a7fd6b80368fcf79f6b4"
+  integrity sha512-68dveDFd766p69cBvK/MtOrOP0+YKYLeHspa9KLEWcWk9suPf3pbGkHQ2pwDnvLJxBPHk4932KbbSSzzpGNZGw==
   dependencies:
     "@poppinss/cliui" "^6.4.1"
-    "@poppinss/hooks" "^7.2.3"
-    "@poppinss/macroable" "^1.0.2"
+    "@poppinss/hooks" "^7.2.4"
+    "@poppinss/macroable" "^1.0.3"
     "@poppinss/prompts" "^3.1.3"
-    "@poppinss/utils" "^6.7.3"
+    "@poppinss/utils" "^6.8.3"
     fastest-levenshtein "^1.0.16"
     jsonschema "^1.4.1"
     string-width "^7.2.0"
     yargs-parser "^21.1.1"
-    youch "^3.3.3"
+    youch "^3.3.4"
     youch-terminal "^2.2.3"
 
 "@adonisjs/auth@9.2.3":
@@ -2880,6 +2880,11 @@
   resolved "https://registry.yarnpkg.com/@poppinss/hooks/-/hooks-7.2.3.tgz#d25edd63d71be509399d31c694462233075de9f5"
   integrity sha512-+B7YSazGaCMcoUubwEkCTnpAvJ+Fv7tqgtpu7cm9qt1adEjmXDmaiG76loEnmxAkyHrbZJ5xHGNSD0NwMhLcnA==
 
+"@poppinss/hooks@^7.2.4":
+  version "7.2.4"
+  resolved "https://registry.yarnpkg.com/@poppinss/hooks/-/hooks-7.2.4.tgz#d558369164466bcf1eb01b0e86f1db1ac475983b"
+  integrity sha512-AoKSHC8ts199+PPa/R+XFF1A9FFhbiGibizOp0M54kCzvhwErGNLJd8Yk/b5nzodmsvApX7cjWVKPM5+12r2VA==
+
 "@poppinss/macroable@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@poppinss/macroable/-/macroable-1.0.2.tgz#bdf2fb8648334410a1a53173e5b2d1995d3848af"
@@ -5269,10 +5274,10 @@ cookie@^0.4.0, cookie@^0.4.1:
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.2.tgz#0e41f24de5ecf317947c82fc789e06a884824432"
   integrity sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==
 
-cookie@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.5.0.tgz#d1f5d71adec6558c58f389987c366aa47e994f8b"
-  integrity sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==
+cookie@^0.7.1:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.7.2.tgz#556369c472a2ba910f2979891b526b3436237ed7"
+  integrity sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==
 
 copy-anything@^3.0.2:
   version "3.0.5"
@@ -13417,12 +13422,12 @@ youch@^2.0.10:
     mustache "^4.2.0"
     stack-trace "0.0.10"
 
-youch@^3.3.3:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/youch/-/youch-3.3.3.tgz#50cfdf5bc395ce664a5073e31b712ff4a859d928"
-  integrity sha512-qSFXUk3UZBLfggAW3dJKg0BMblG5biqSF8M34E06o5CSsZtH92u9Hqmj2RzGiHDi64fhe83+4tENFP2DB6t6ZA==
+youch@^3.3.4:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/youch/-/youch-3.3.4.tgz#f13ee0966846c6200e7fb9ece89306d95df5e489"
+  integrity sha512-UeVBXie8cA35DS6+nBkls68xaBBXCye0CNznrhszZjTbRVnJKQuNsyLKBTTL4ln1o1rh2PKtv35twV7irj5SEg==
   dependencies:
-    cookie "^0.5.0"
+    cookie "^0.7.1"
     mustache "^4.2.0"
     stacktracey "^2.1.8"
 
