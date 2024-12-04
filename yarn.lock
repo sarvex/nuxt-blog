@@ -115,13 +115,13 @@
     youch "^2.0.10"
     youch-terminal "^1.0.0"
 
-"@adonisjs/lucid@21.4.0":
-  version "21.4.0"
-  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-21.4.0.tgz#5e81b5ea0e59c1be8d7ee5ca7784883163b69097"
-  integrity sha512-RitHDj/gSpnKrs8qsbf3FtoWN95EGto9Hl4ZLw2xiQbBXZwp68O9xMAJsUYsZ2vSpez3o4fyNDM7dTf50hHJ5g==
+"@adonisjs/lucid@21.5.0":
+  version "21.5.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/lucid/-/lucid-21.5.0.tgz#7aba22aca886b4ee360b3d92ead6299bbe404913"
+  integrity sha512-guRoFVnWzvtQihkQ0AJJAXc8g9oQnAWQcdos1kptlNsrJsVfPiG6mM7fgjr8cbl6xu/LlM+PF7FqK9j6ykFrRA==
   dependencies:
     "@adonisjs/presets" "^2.6.3"
-    "@faker-js/faker" "^9.2.0"
+    "@faker-js/faker" "^9.3.0"
     "@poppinss/hooks" "^7.2.4"
     "@poppinss/macroable" "^1.0.3"
     "@poppinss/utils" "^6.8.3"
@@ -131,7 +131,7 @@
     knex "^3.1.0"
     knex-dynamic-connection "^3.2.0"
     pretty-hrtime "^1.0.3"
-    qs "^6.13.0"
+    qs "^6.13.1"
     slash "^5.1.0"
     tarn "^3.0.2"
 
@@ -1798,10 +1798,10 @@
   dependencies:
     levn "^0.4.1"
 
-"@faker-js/faker@^9.2.0":
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-9.2.0.tgz#269ee3a5d2442e88e10d984e106028422bcb9551"
-  integrity sha512-ulqQu4KMr1/sTFIYvqSdegHT8NIkt66tFAkugGnHA+1WAfEn6hMzNR+svjXGFRVLnapxvej67Z/LwchFrnLBUg==
+"@faker-js/faker@^9.3.0":
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-9.3.0.tgz#ef398dab34c67faaa0e348318c905eae3564fa58"
+  integrity sha512-r0tJ3ZOkMd9xsu3VRfqlFR6cz0V/jFYRswAIpC+m/DIfAUXq7g8N7wTAlhSANySXYGKzGryfDXwtwsY8TxEIDw==
 
 "@humanfs/core@^0.19.1":
   version "0.19.1"
@@ -10616,10 +10616,10 @@ qs@^6.12.1:
   dependencies:
     side-channel "^1.0.6"
 
-qs@^6.13.0:
-  version "6.13.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.13.0.tgz#6ca3bd58439f7e245655798997787b0d88a51906"
-  integrity sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg==
+qs@^6.13.1:
+  version "6.13.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.13.1.tgz#3ce5fc72bd3a8171b85c99b93c65dd20b7d1b16e"
+  integrity sha512-EJPeIn0CYrGu+hli1xilKAPXODtJ12T0sP63Ijx2/khC2JtuaN3JyNIpvmnkmaEtha9ocbG4A4cMcr+TvqvwQg==
   dependencies:
     side-channel "^1.0.6"
 
