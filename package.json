@@ -17,7 +17,7 @@
     "cross-env": "7.0.3",
     "nuxt": "3.14.1592",
     "@adonisjs/ace": "13.3.0",
-    "@adonisjs/auth": "9.2.4",
+    "@adonisjs/auth": "9.3.0",
     "@adonisjs/bodyparser": "10.0.2",
     "@adonisjs/cors": "2.2.1",
     "@adonisjs/fold": "10.1.3",
