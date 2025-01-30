@@ -168,12 +168,12 @@
     "@poppinss/macroable" "^1.0.4"
     "@poppinss/utils" "^6.9.2"
 
-"@adonisjs/shield@8.1.1":
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/@adonisjs/shield/-/shield-8.1.1.tgz#5abd035cd22bc35fe36279d07c9910f985102aab"
-  integrity sha512-b/rIypxfG8HKPRvWYJo7qhvAlvYCFXn7/A7eb/QI/PQV4fMmW4iF9tAykxl5peu4WJCHCwXwR3Y6/j0VerQcmQ==
+"@adonisjs/shield@8.1.2":
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/@adonisjs/shield/-/shield-8.1.2.tgz#12251232227192efad6cf243dab35e073e86f204"
+  integrity sha512-ksC3KMTnGVYyjos/PM7WMQ/mUNhDuxvpFqNd2YAgPEWYVc+kr3WTTkaRrC7srl6jFmbOOv4R4aQ9RIvo1S0pjg==
   dependencies:
-    "@poppinss/utils" "^6.7.1"
+    "@poppinss/utils" "^6.9.2"
     csrf "^3.1.0"
     helmet-csp "^3.4.0"
 
@@ -2521,24 +2521,6 @@
     bytes "^3.1.2"
     case-anything "^3.1.0"
     pluralize "^8.0.0"
-    slugify "^1.6.6"
-    truncatise "^0.0.8"
-
-"@poppinss/utils@^6.7.1":
-  version "6.7.1"
-  resolved "https://registry.yarnpkg.com/@poppinss/utils/-/utils-6.7.1.tgz#557b0d2266874891fdaac91e5f28aef9efb325a4"
-  integrity sha512-M/IiE/lp493QEcDXpFHqlJGU4Tw0mw2JLCH1NgmL2UtL9QL4aTgd0MPwjIYOtikA0ug/oJwM1e7z1NKTGig/rw==
-  dependencies:
-    "@lukeed/ms" "^2.0.2"
-    "@types/bytes" "^3.1.4"
-    "@types/pluralize" "^0.0.33"
-    bytes "^3.1.2"
-    case-anything "^2.1.13"
-    flattie "^1.1.0"
-    pluralize "^8.0.0"
-    safe-stable-stringify "^2.4.3"
-    secure-json-parse "^2.7.0"
-    slash "^5.1.0"
     slugify "^1.6.6"
     truncatise "^0.0.8"
 
@@ -6547,11 +6529,6 @@ flatted@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.3.2.tgz#adba1448a9841bec72b42c532ea23dbbedef1a27"
   integrity sha512-AiwGJM8YcNOaobumgtng+6NHuOqC3A7MixFeDafM3X9cIUM+xUXoS5Vfgf+OihAYe20fxqNM9yPBXJzRtZ/4eA==
-
-flattie@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/flattie/-/flattie-1.1.0.tgz#1459504209f2001c478751b4e2fb69d6b1ee3241"
-  integrity sha512-xU99gDEnciIwJdGcBmNHnzTJ/w5AT+VFJOu6sTB6WM8diOYNA3Sa+K1DiEBQ7XH4QikQq3iFW1U+jRVcotQnBw==
 
 flattie@^1.1.1:
   version "1.1.1"
