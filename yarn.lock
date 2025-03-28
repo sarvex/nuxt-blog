@@ -161,10 +161,10 @@
     "@poppinss/macroable" "^1.0.4"
     "@poppinss/utils" "^6.9.2"
 
-"@adonisjs/shield@8.1.2":
-  version "8.1.2"
-  resolved "https://registry.yarnpkg.com/@adonisjs/shield/-/shield-8.1.2.tgz#12251232227192efad6cf243dab35e073e86f204"
-  integrity sha512-ksC3KMTnGVYyjos/PM7WMQ/mUNhDuxvpFqNd2YAgPEWYVc+kr3WTTkaRrC7srl6jFmbOOv4R4aQ9RIvo1S0pjg==
+"@adonisjs/shield@8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/shield/-/shield-8.2.0.tgz#dfa38c211dbb9ff43291bd5889fb4299611c559e"
+  integrity sha512-RddRbs92y87GGFUgDSWD/Pg7qYHh8+MctUphFZwtbTblvDckrjZxuYyp+vmVATPuvDvK7sOlatuZHT4HQSz9zQ==
   dependencies:
     "@poppinss/utils" "^6.9.2"
     csrf "^3.1.0"
