@@ -15,9 +15,9 @@
   },
   "dependencies": {
     "cross-env": "7.0.3",
-    "nuxt": "3.17.5",
+    "nuxt": "3.17.7",
     "@adonisjs/ace": "13.3.0",
-    "@adonisjs/auth": "9.4.0",
+    "@adonisjs/auth": "9.4.2",
     "@adonisjs/bodyparser": "10.1.0",
     "@adonisjs/cors": "2.2.1",
     "@adonisjs/fold": "10.2.0",
@@ -45,15 +45,15 @@
     "eslint-plugin-standard": "5.0.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-vue": "10.2.0",
-    "eslint-config-prettier": "10.1.5",
-    "eslint-plugin-prettier": "5.5.1",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-prettier": "5.5.3",
     "prettier": "3.6.2",
     "stylus": "0.64.0",
     "stylus-loader": "8.1.1",
     "@vue/test-utils": "2.4.6",
     "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "30.0.2",
-    "jest": "30.0.3",
+    "babel-jest": "30.0.4",
+    "jest": "30.0.4",
     "vue-jest": "3.0.7"
   }
 }
