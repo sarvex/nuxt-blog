@@ -46,7 +46,7 @@
     "eslint-loader": "4.0.2",
     "eslint-plugin-vue": "10.2.0",
     "eslint-config-prettier": "10.1.5",
-    "eslint-plugin-prettier": "5.5.1",
+    "eslint-plugin-prettier": "5.5.4",
     "prettier": "3.6.2",
     "stylus": "0.64.0",
     "stylus-loader": "8.1.1",
