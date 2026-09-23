@@ -13600,10 +13600,10 @@ vuetify-loader@1.9.2:
     file-loader "^6.2.0"
     loader-utils "^2.0.0"
 
-vuetify@3.8.11:
-  version "3.8.11"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.8.11.tgz#a2572572ebf32d33eecab560a6bdd2b1a92a3a50"
-  integrity sha512-sF5U364CFWq/K3zhC1z90DPHDp1EL6bepKpgzfIfHN6I2BoC1qjbH+hEqozqaGETrIBK7+ShccAzZ8CHL56YZQ==
+vuetify@3.13.5:
+  version "3.13.5"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.13.5.tgz#4cd96b92cbacacf8a39a712cf701dd514127149d"
+  integrity sha512-1PKESHKgyIj6BfjVbpF1bLWvKIBOvyDqIcP6C0R173fNZDr4jyXH7ssigAZvfqV5nRmVS/N9sGtY/IekGQ9TSQ==
 
 walker@^1.0.8:
   version "1.0.8"
