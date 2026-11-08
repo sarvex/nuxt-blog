@@ -14,7 +14,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "cross-env": "7.0.3",
+    "cross-env": "10.1.0",
     "nuxt": "3.17.5",
     "@adonisjs/ace": "13.3.0",
     "@adonisjs/auth": "9.4.0",
