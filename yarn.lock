@@ -12,10 +12,10 @@
   resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.3.3.tgz#90749bde8b89cd41764224f5aac29cd4138f75ff"
   integrity sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==
 
-"@adonisjs/ace@13.3.0":
-  version "13.3.0"
-  resolved "https://registry.yarnpkg.com/@adonisjs/ace/-/ace-13.3.0.tgz#832c9a4097888ad5dd85a7fd6b80368fcf79f6b4"
-  integrity sha512-68dveDFd766p69cBvK/MtOrOP0+YKYLeHspa9KLEWcWk9suPf3pbGkHQ2pwDnvLJxBPHk4932KbbSSzzpGNZGw==
+"@adonisjs/ace@13.4.0":
+  version "13.4.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/ace/-/ace-13.4.0.tgz#69ba593b58f5535f36dff784ae31862ff767cf2a"
+  integrity sha512-7Wq6CpXmQm3m/6fKfzubAadCdiH2kKSni+K8s5KcTIFryKSqW+f06UAPOUwRJWqy80hnVlujAjveIsNJSPeJjA==
   dependencies:
     "@poppinss/cliui" "^6.4.1"
     "@poppinss/hooks" "^7.2.4"
